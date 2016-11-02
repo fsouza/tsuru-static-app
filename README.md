@@ -7,3 +7,9 @@ You can deploy it to tsuru using:
 ```
 % tsuru app-deploy -a myapp -i fsouza/tsuru-static-app
 ```
+
+If you prefer to just upload the code to tsuru, you can have a static app and deploy it:
+
+```
+% tsuru app-deploy -a myapp .
+```
